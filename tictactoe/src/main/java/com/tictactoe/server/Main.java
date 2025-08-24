@@ -1,7 +1,10 @@
 package com.tictactoe.server;
 
+import com.tictactoe.server.view.TicTacToeGUI;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        TicTacToeGUI view = new TicTacToeGUI();
     }
 }
